@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-04T04:07:38.367Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2122947500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.PhpTravels.modules.DriverSetUpImpl.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "test case",
+        "description": "",
+        "id": "dummy-test;test-case",
+        "after": [
+          {
+            "result": {
+              "duration": 150270700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.PhpTravels.modules.DriverSetUpImpl.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 840513600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch browser",
+            "match": {
+              "location": "com.PhpTravels.modules.Dummy1.launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1539100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "condition1",
+            "match": {
+              "location": "com.PhpTravels.modules.Dummy1.condition1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4194100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "condition2",
+            "match": {
+              "location": "com.PhpTravels.modules.Dummy1.condition2()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "dummy test",
+    "description": "",
+    "id": "dummy-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dummy.feature",
+    "tags": []
+  }
+]
